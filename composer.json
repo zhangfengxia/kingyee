@@ -1,0 +1,21 @@
+{
+    "name": "zhangfengxia/medlive",
+    "description": "this is medlive service",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangfengxia",
+            "email": "zhangfengxia@medlive.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+    "psr-4": {
+        "medlive\\": "src/"
+    }
+}
+}
